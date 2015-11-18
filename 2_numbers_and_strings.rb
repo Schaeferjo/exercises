@@ -46,6 +46,6 @@ puts # ------------ print empty line -------------
 puts "Attention: We will get an error message now:"
 puts "\"No implicit conversion of Fixnum into String (TypeError)\" "
 puts # ------------ print empty line -------------
-puts "Sepp Herberger: Das Spiel dauert " + 90 + " Minuten."
+puts "Sepp Herberger: \"Das Spiel dauert " + 90 + " Minuten.\""
 # TODO: How can you fix that??
 
