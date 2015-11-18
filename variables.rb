@@ -1,7 +1,8 @@
 # Programming exercise 5.1: Assignment of Variables
 # AKA: Give names to objects
-# Tutorial: http://ruby-for-beginners.rubymonstas.org/variables.html
-
+######################################################################
+# Tutorial: http://ruby-for-beginners.rubymonstas.org/variables.html #
+######################################################################
 
 # we can assign a variable with the equal sign =
 a = "I am a String, and I am assigned to the variable 'a'"
