@@ -1,7 +1,7 @@
 # Programming exercise 5.2: Numbers and Strings
 #############################################################################################
 # Tutorial Numbers: http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html #
-# Tutorial Strings: http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html  #
+# Tutorial Strings: http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html #
 #############################################################################################
 
 # In ruby, numbers are objects like everything else
@@ -24,6 +24,9 @@ puts expression1
 # But if we add two numbers in double quotes
 expression2 = "2" + "5"
 puts "The result of the expression \"2\" + \"5\" is:"
+# Oh, and by the way, we can write the literal quotation mark inside a string
+# with a so called 'escape character' the backslash \ so the quotation marks
+# don't terminate the string
 puts expression2
 # TODO: Can you explain why?
 puts "Why?"
