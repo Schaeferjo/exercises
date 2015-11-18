@@ -10,14 +10,14 @@
 # In ruby, numbers are objects like everything else
 puts "Is '5' an object?"
 puts 5.is_a?(Object)
-puts # puts nothing prints a new line
+puts # ------------ new line -------------
 
 # Like any other object, numbers have methods
 puts "Is 5.zero?"
 puts 5.zero?
 puts "Is 0.zero?"
 puts 0.zero?
-puts
+puts # ------------ new line -------------
 
 # So we can add two numbers and remember the result with the variable 'expression1'
 expression1 = 2 + 5
@@ -30,7 +30,7 @@ puts "The result of the expression \"2\" + \"5\" is:"
 puts expression2
 # TODO: Can you explain why?
 puts "Why?"
-puts
+puts # ------------ new line -------------
 
 
 # TODO: Does this help?
