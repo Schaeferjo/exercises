@@ -1,7 +1,7 @@
 # Programming exercise 5.2: Numbers and Strings
 #############################################################################################
 # Tutorial Numbers: http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html #
-# Tutorial Strings: http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html #
+# Tutorial Strings http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html  #
 #############################################################################################
 
 # So first of all: Don't worry about this "strange #{some_ruby_code} syntax"
