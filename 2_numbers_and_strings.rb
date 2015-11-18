@@ -23,10 +23,10 @@ puts expression1
 
 # But if we add two numbers in double quotes
 expression2 = "2" + "5"
-puts "The result of the expression \"2\" + \"5\" is:"
 # Oh, and by the way, we can write the literal quotation mark inside a string
 # with a so called 'escape character' the backslash \ so the quotation marks
 # don't terminate the string
+puts "The result of the expression \"2\" + \"5\" is:"
 puts expression2
 # TODO: Can you explain why?
 puts "Why?"
