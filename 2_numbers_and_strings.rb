@@ -33,10 +33,19 @@ puts "Why?"
 puts # ------------ print empty line -------------
 
 
-# TODO: Does this help?
+# Does this help?
 puts "If we call \"5\".class, we get"
 puts "5".class
 
-# TODO: Does this help?
-puts "If we call 5.class, we get "
+# Does this help?
+puts "If we call 5.class, we get"
 puts 5.class
+puts # ------------ print empty line -------------
+
+# TODO: We want to output a quote of Sepp Herberger here
+puts "Attention: We will get an error message now:"
+puts "\"No implicit conversion of Fixnum into String (TypeError)\" "
+puts # ------------ print empty line -------------
+puts "Sepp Herberger: Das Spiel dauert " + 90 + " Minuten."
+# TODO: How can you fix that??
+
