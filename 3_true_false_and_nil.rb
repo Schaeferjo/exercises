@@ -13,7 +13,7 @@ puts 5.is_a?(String)
 puts "But if you ask me, this String, right here:"
 puts "But if you ask me, this String, right here:".is_a?(String)
 # Both 'true' and 'false' are protected keywords in ruby, so you can't use them as a variable name
-# This will lead into an error
+# This will lead to an error
 # true = "Something"
 puts # ------------ print empty line -------------
 
