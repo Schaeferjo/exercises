@@ -10,7 +10,7 @@
 # In ruby, numbers are objects like everything else
 puts "Is '5' an object?"
 puts 5.is_a?(Object)
-puts
+puts # puts nothing prints a new line
 
 # Like any other object, numbers have methods
 puts "Is 5.zero?"
