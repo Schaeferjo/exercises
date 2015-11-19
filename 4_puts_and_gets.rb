@@ -25,7 +25,7 @@ print "\n" # ------------ print another empty line -------------
 
 
 # The methods 'gets' waits for user input and returns another string
-# However, 'gets' also captures the line break at the end, which is a newline
+# However, 'gets' also captures the line break at the end
 puts "Dear user, please enter some text and hit return ;)"
 user_input = gets
 puts "Here comes the user input: " + user_input + " but this is on a new line .."
@@ -36,14 +36,14 @@ puts "Here comes the user input: " + user_input.strip + " without a new line .."
 # We can also call 'strip' on the return value of 'get' directly
 puts "Please input something else:"
 new_user_input = gets.strip
-puts "The new user input " + new_user_input + " has no newline included - got that? :)"
+puts "The new user input " + new_user_input + " has no line break at the end - got that? :)"
 
-puts "Press enter to see how all the following words are separated by a newline"
+puts "Press enter to see how all the following words are separated by a line break"
 gets
 # Whitespaces are invisible characters
 # So to make them visible in the source code we use the backslash together with a character
-# E.g. this \n means a newline in the string
-puts "These\nwords\nare\nall\non\na\nnewline"
+# E.g. this \n means a line break in the string
+puts "These\nwords\nare\nall\non\na\nnew\nline"
 
 
 # TODO: here are some strings with trailing newlines
