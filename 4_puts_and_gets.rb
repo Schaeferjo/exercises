@@ -38,7 +38,7 @@ puts "Please input something else:"
 new_user_input = gets.strip
 puts "The new user input " + new_user_input + " has no newline included - got that? :)"
 
-puts "Are you ready to see how we can write newlines in the source code?"
+puts "Press enter to see how all the following words are separated by a newline"
 gets
 # Whitespaces are invisible characters
 # So to make them visible in the source code we use the backslash together with a character
