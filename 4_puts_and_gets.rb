@@ -33,7 +33,7 @@ puts "Here comes the user input: " + user_input + " but this is on a new line ..
 # We can use either 'strip' or 'chomp', in our example the difference doesn't matter
 puts "Here comes the user input: " + user_input.strip + " without a new line .."
 
-# We can also call 'strip' on the return value of 'get' directly
+# We can also call 'strip' on the return value of 'gets' directly
 puts "Please input something else:"
 new_user_input = gets.strip
 puts "The new user input " + new_user_input + " has no line break at the end - got that? :)"
