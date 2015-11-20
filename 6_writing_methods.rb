@@ -63,7 +63,8 @@ puts # ------------ print empty line -------------
 # Methods can have arguments
 def introduce_two_people(person1, person2)
   # Arguments are like local variables
-  # So 'person1' and 'person2' are just names for objects that the pass to the method
+  # So we can think that 'person1' and 'person2' are just names
+  # for objects that we pass to the method
 	puts "Hello " + person1 + " this is " + person2 + "."
 	puts "Hello " + person2 + " this is " + person1 + "."
 end
