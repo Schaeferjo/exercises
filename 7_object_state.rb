@@ -5,6 +5,10 @@
 
 class Person
   def initialize(name)
+    # This is a so called 'instance variable'
+    # Instance variables belong to an object and in contrast to local variables
+    # they don't disappear after we leave the method
+    # but are saved as long as the object lives
     @name = name
   end
 

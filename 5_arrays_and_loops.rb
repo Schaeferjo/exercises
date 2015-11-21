@@ -1,4 +1,4 @@
-# Programming exercise 5.5: Arrays and loops
+# Programming exercise 5.5: Arrays
 #######################################################################################
 # Tutorial: http://ruby-for-beginners.rubymonstas.org/built_in_classes/arrays.html    #
 #######################################################################################
