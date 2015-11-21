@@ -39,12 +39,12 @@ puts "Again, the new name for the person is #{person.name}"
 
 person2 = Person.new "Carl"
 # This second person is another instance of class 'Person'
-# It has got its own state which is different from the first person
-# Even if it has got the same name, it is not the same instance
+# Although it may have the same name as our first person, it is another person object
 puts "Do the two persons have the same name?"
 puts person.name == person2.name
 puts "Are the two persons the same object?"
 puts person.equal?(person2)
+puts "Although two objects may have the same values, they are still different!"
 # Does that make sense?
 
 
