@@ -1,3 +1,4 @@
+# Programming exercise 5.9: Object scope
 #################################################################################
 # Tutorial: http://ruby-for-beginners.rubymonstas.org/writing_classes/self.html #
 #################################################################################

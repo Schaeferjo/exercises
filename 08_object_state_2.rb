@@ -1,4 +1,4 @@
-# Programming exercise 5.7: Writing Classes - part 1
+# Programming exercise 5.8: Writing Classes - part 2
 ############################################################################
 # Tutorial: http://ruby-for-beginners.rubymonstas.org/objects.html         #
 # Tutorial: http://ruby-for-beginners.rubymonstas.org/writing_classes.html #
