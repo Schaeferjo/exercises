@@ -59,4 +59,4 @@ puts some_object == nil # NOTE: The double equal sign here
 
 
 # TODO: Write a philosophical essay about the meaning of the void (nothingness) in programming languages
-# TODO: Debate the meaning of truth and untruth in a public speech
+# TODO: Express the meaning of truth and untruth from a development perspective in a public debate
