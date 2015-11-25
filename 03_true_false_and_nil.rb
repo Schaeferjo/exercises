@@ -29,9 +29,34 @@ p "Auslegeware".index("Z")
 puts # ------------ print empty line -------------
 puts # ------------ print empty line -------------
 
-puts "By the way, I've used the method 'p' to print the value 'nil'"
-puts "Because if you use 'puts' with nil you see:"
+# NOTE:If you are confused about the usage of 'p' and 'puts' you can read about it in our tutorial 
+# NOTE: http://ruby-for-beginners.rubymonstas.org/writing_methods/printing.html
+puts "By the way, I've used the method 'p' to print \"Auslegeware\".index(\"Z\")"
+puts "It's because if you 'puts nil' then you see:"
 puts nil
-puts "An empty line! Does that make sense? You simply print nothing! :)"
+puts # ------------ print empty line -------------
 
-# TODO: Write a philosophical essay about the meaning of truth and nothing in programming languages
+puts "An empty line! Does that make sense? You simply print nothing! :)"
+puts "But if you use 'p nil' then you see"
+p nil
+puts # ------------ print empty line -------------
+
+puts "The literal description of the value 'nil' which a String consisting of the characters n-i-l"
+puts "Calling 'p something' is equivalent to 'puts something.inspect'"
+puts nil.inspect
+puts "See?"
+puts # ------------ print empty line -------------
+
+puts "One more thing: In ruby (almost) everything is an object, including 'nil', 'true' and 'false'"
+puts "Therefore we can call methods on these objects, e.g. \"nil.nil?\""
+puts nil.nil?
+puts "Isn't that cool? We can ask the pure void: \"Are you nil?\" and it will tell us: \"Yes.\""
+puts # ------------ print empty line -------------
+puts "This is just one reason why ruby is awesome"
+puts "In other programming languages you have to *compare* your object with nil"
+some_object = nil
+puts some_object == nil # NOTE: The double equal sign here
+
+
+# TODO: Write a philosophical essay about the meaning of the void (nothingness) in programming languages
+# TODO: Debate the meaning of truth and untruth in a public speech

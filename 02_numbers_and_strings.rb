@@ -28,6 +28,7 @@ expression2 = "2" + "5"
 # don't terminate the string
 puts "The result of the expression \"2\" + \"5\" is:"
 puts expression2
+# TODO: So as you have seen in your command line, the result is '25'
 # TODO: Can you explain why?
 puts "Why?"
 puts # ------------ print empty line -------------
