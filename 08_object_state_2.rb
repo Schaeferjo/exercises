@@ -5,45 +5,45 @@
 ############################################################################
 
 class Sheep
-	def initialize
-		@hungry = 3
-		@tired = true
-	end
+  def initialize
+    @hungry = 3
+    @tired = true
+  end
 
-	def wake_up
-		@tired = false
-		puts "Yaaaawwn. Good morning! ;)"
-	end
+  def wake_up
+    @tired = false
+    puts "Yaaaawwn. Good morning! ;)"
+  end
 
-	def sleeping?
-		@tired
-	end
+  def sleeping?
+    @tired
+  end
 
-	def hungry?
-		@hungry > 0
-	end
+  def hungry?
+    @hungry > 0
+  end
 
-	def eat_grass
-		if sleeping?
-			puts "I'm still asleep! You have to wake me up!"
-		else
+  def eat_grass
+    if sleeping?
+      puts "I'm still asleep! You have to wake me up!"
+    else
 
-			if hungry?
-				puts "Mmmh, yummy grass!"
-				@hungry = @hungry - 1
-			end
+      if hungry?
+        puts "Mmmh, yummy grass!"
+        @hungry = @hungry - 1
+      end
 
-			if hungry?
-				puts "I'm still hungry! I want to eat more grass."
-			else
-				puts "Now I'm full!"
-			end
-		end
-	end
+      if hungry?
+        puts "I'm still hungry! I want to eat more grass."
+      else
+        puts "Now I'm full!"
+      end
+    end
+  end
 end
 
 # This is just another exercise on object oriented programming
-# Here we have to call certan methods on the object to reach our goal
+# Here we have to call certain methods on the object to reach our goal
 # You don't have to change the class' definition
 
 # Okay, so we are creating a new instance of class sheep here
@@ -53,8 +53,9 @@ sheep = Sheep.new
 # TODO: What method do we have to call on the sheep first??
 sheep.eat_grass
 sheep.eat_grass
-# TODO: So, what methods and in what order and how often do we have to call them?
+# TODO: So, which methods, in which order and how often do we have to call them?
 
 # TODO: Can you imagine how the objects state changes when you call certain methods?
 # TODO: Call 'p sheep' between your steps
+p sheep
 # TODO: So you can see how the instance variables of the sheep change
