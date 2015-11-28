@@ -100,7 +100,7 @@ puts "The sentence split into words looks like this"
 p words_of_sentence
 # We can iterate over a list with 'collect' and return a new list
 # NOTE: This time, the curly braces indicate a block
-translated_words = words_of_sentence.collect {|word| english_dictionary[word]}
+translated_words = words_of_sentence.map {|word| english_dictionary[word]}
 puts "The list of translated words looks like this"
 p translated_words
 # We can combine a list of strings into one string with 'join'
