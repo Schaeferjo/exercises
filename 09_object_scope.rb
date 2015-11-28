@@ -35,6 +35,7 @@ friend.greet(person)
 # NOTE: An identifier could be a local variable or a method
 # NOTE: In the above example it makes the code even more readable to use 'self'
 # NOTE: 'self' is the keyword that always refers to the current object
+# NOTE: We call that an 'explicit receiver', sth. on which we call a method (sth.method)
 
 # NOTE: Keywords can never be used as variable names
 # NOTE: Do you want to try it out?
