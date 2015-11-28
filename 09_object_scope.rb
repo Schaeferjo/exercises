@@ -25,7 +25,22 @@ end
 person = Person.new("Alice")
 friend = Person.new("Bob")
 person.greet(friend)
-# What do we have to write in order to let Alice tell her name to her friend Bob?
-# Or vice verso?
+# TODO: What do we have to change in class Person above?
+# TODO: We want to let Alice tell her actual name to her friend Bob!
+# TODO  And vice versa
 friend.greet(person)
+
+
+# NOTE: The 'lookup' of identifiers is sometimes tricky
+# NOTE: An identifier could be a local variable or a method
+# NOTE: In the above example it makes the code even more readable to use 'self'
+# NOTE: 'self' is the keyword that always refers to the current object
+
+# NOTE: Keywords can never be used as variable names
+# NOTE: Do you want to try it out?
+# TODO: Uncomment the following lines of code individually and see what happens
+#self = "Self"
+#true = false
+#nil = 0
+
 
