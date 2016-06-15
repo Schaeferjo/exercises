@@ -13,8 +13,7 @@ b = "I am another String, and I am assigned to the variable 'b'"
 
 puts "We can recall a variable by it's name"
 puts "So for example, if we want to show the string that we gave the name 'a'"
-puts a 
-puts # TODO: What do we have to write after 'puts' if we want to show the variable 'a'???
+puts a
 
 
 puts "Likewise, we can show the string associated with the variable 'b'"
