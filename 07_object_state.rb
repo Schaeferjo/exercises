@@ -17,6 +17,7 @@ class Person
   end
 
   def rename(name)
+    @name = name
     # TODO: what do we have to write here
   end
 end
@@ -50,5 +51,3 @@ puts "Are the two persons the same object?"
 puts person.equal?(person2)
 puts "Although two objects may have the same values, they are still different!"
 # Does that make sense?
-
-

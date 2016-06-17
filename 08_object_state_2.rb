@@ -48,14 +48,22 @@ end
 
 # Okay, so we are creating a new instance of class sheep here
 sheep = Sheep.new
+p sheep
 # TODO: Feed the sheep until it's full!
 # TODO: If we call sheep.eat_grass, the sheep will tell us it's still sleeping
 # TODO: What method do we have to call on the sheep first??
-sheep.eat_grass
-sheep.eat_grass
+# => Siehe folgende Zeile
+sheep.wake_up
+p sheep
 # TODO: So, which methods, in which order and how often do we have to call them?
-
+sheep.eat_grass
+p sheep
+sheep.eat_grass
+p sheep
+sheep.eat_grass
+p sheep
 # TODO: Can you imagine how the objects state changes when you call certain methods?
+# => Erst Schaf mit sheep.wake_up aufwecken, dann 3x mit sheep.eat_grass sättigen.
 # TODO: Call 'p sheep' between your steps
 p sheep
 # TODO: So you can see how the instance variables of the sheep change

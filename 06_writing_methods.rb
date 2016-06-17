@@ -73,6 +73,10 @@ introduce_two_people("Wisal", "Annika")
 
 # TODO: define a method that adds two numbers
 def add(number1, number2)
+  puts number1
+  puts number2
+  result = number1 + number2
+  puts "Das Ergebnis der beiden Werte lautet: " + result.to_s
 	# TODO: what comes in here?
   # Remember: you can add numbers with a plus sign, e.g. 1 + 2
 end
@@ -82,7 +86,19 @@ puts add(1,2)
 
 # TODO: What happens if you call the method add without arguments?
 # TODO: Do you understand why?
+# => Syntax error, weil die Methode Parameter erwartet: add(argument1, argument2)
 
 
 # TODO: Define a method with a name that you choose on your own ;)
 # TODO: The method should expect some arguments and does something interesting
+
+
+def repeat_name(name, times, love)
+    times.times do
+      puts name
+    end
+    puts love
+  # puts name.is_a?(String)
+end
+
+repeat_name("Robi", 3, "♥")
