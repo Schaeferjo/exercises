@@ -14,14 +14,14 @@ class Person
 
   def greet(other_person)
     #This local variable shadows the method 'name'
-    name = @name
+    name = "Some Bullshit"
     # TODO: We have a name clash betweeen a local variable and a method name
     # TODO: How can we be specific?
     # => Indem innerhalb der Methode greet nicht der Wert "name" verwendet wird,
     # da dieser Wert außerhalb definiert wurde und somit übernommen wird.
     # TODO :How can we call a method on the current object?
     # => Umbenennen, da es sonst zu einer Nameskollision kommt?!
-    puts "Hi " + other_person.name + "! My name is " + name + "."
+    puts "Hi " + other_person.name + "! My name is " + self.name + "."
   end
 end
 
