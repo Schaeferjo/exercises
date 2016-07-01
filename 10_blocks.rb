@@ -5,7 +5,7 @@
 
 
 # Our Tutorial says: "Blocks are one of the things programmers absolutely love about Ruby"
-# And as a ruby developer I can conirm that!
+# And as a ruby developer I can confirm that!
 
 # A block is like an anonymous method
 # It has got input(arguments), some code and an output but no name - therefore we call it 'anonymous method'
@@ -35,15 +35,15 @@ numbers_plus_three = [1,3,5,6,10].map {|number| number + 3 }
 p numbers_plus_three
 
 
+
 puts # ------------ print empty line -------------
 # TODO: Show only the odd numbers on the screen!
 # NOTE:The method 'select' selects only items from an array, on which a block evaluates to 'true'
 # NOTE: read http://ruby-doc.org/core-2.2.3/Enumerable.html#method-i-select
 # NOTE: 'odd?' tells you if a number is odd or not
 # NOTE: read http://ruby-doc.org/core-1.8.7/Integer.html#method-i-odd-3F
-puts "All the odd numbers are"
-puts [1,2,3,4,5,6,7] # what do we have to call on the array?
-
+puts "All the odd numbers are:"
+puts [1,2,3,4,5,6,7].select { |num| num.odd? }
 
 
 
@@ -52,7 +52,5 @@ puts [1,2,3,4,5,6,7] # what do we have to call on the array?
 # NOTE: read http://ruby-doc.org/core-2.2.3/Enumerable.html#method-i-find
 # NOTE: The method 'include?' tells you if a String includes another String
 # NOTE: read http://ruby-doc.org/core-2.2.0/String.html#method-i-include-3F
-puts "The first String that includes 'woo' is"
-puts ["Ruby is cool", "Rubies in the woods", "Ruby Monstas"] # what do we have to call on the array?
-
-
+puts "The first String that includes 'woo' is:"
+puts ["Ruby is cool", "Rubies in the woods", "Ruby Monstas"].find { |woo| woo.include? "woo" }
