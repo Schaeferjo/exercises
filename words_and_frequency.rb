@@ -1,16 +1,12 @@
-sentence = "This is is text text a text text"
-single_word = sentence.split(" ")
+sentence = "This is is text text a text text this."
+words = sentence.downcase.gsub(/[^a-z0-9\s]/i, '').split
 different_words = {}
 
-single_word.each do |word|
-  if different_words.has_key?(word) == false
-    different_words[word] =  1
-    else
-    different_words[word] = different_words[word] + 1
-  end
-end
+words.each { |word| different_words[word] = different_words[word].to_i + 1 }
 
-puts different_words.length.to_s + " unterschiedliche Wörter im Satz:"
-different_words.each do |key, value|
-    puts value.to_s + " x " + key
-end
+puts "Es gibt #{different_words.length} unterschiedliche Wörter im Satz:"
+sorted_word_frequencies = different_words.to_a.sort { |pair, another_pair| another_pair.last <=> pair.last }
+p sorted_word_frequencies
+sorted_word_frequencies = different_words.to_a.sort { |pair, another_pair| pair.first <=> another_pair.first }
+p sorted_word_frequencies
+different_words.each { |word, frequency| puts "#{frequency} x #{word}" }
